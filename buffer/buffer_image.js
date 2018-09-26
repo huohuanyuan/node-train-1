@@ -1,8 +1,4 @@
 /*
- * @Author: chengshanshan 
- * @Date: 2018-09-25 16:54:33 
- * @Last Modified by: chengshanshan
- * @Last Modified time: 2018-09-25 17:11:15
  * @instraction:复制一个图片，适合小体积的文件
  */
 

@@ -6,9 +6,9 @@ var postData = querystring.stringify({
 })
 
 var options = {
-    hostname: "www.m-edoc.com",
+    hostname: "https://www.baidu.com",
     port: "80",
-    path: "/edoc/notice/send",
+    path: "notice/send",
     method: 'POST',
     headers: {
         'Accept': 'application/json, text/plain',
@@ -19,10 +19,10 @@ var options = {
         'Connection': 'keep-alive',
         'Content-Length': postData.length,
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Host': 'www.m-edoc.com',
-        'Origin': 'https://www.m-edoc.com',
+        'Host': 'www.baidu.com',
+        'Origin': 'https://www.baidu.com',
         'Pragma': 'no-cache',
-        'Referer': 'https://www.m-edoc.com/manage/notice-manage',
+        'Referer': 'https://www.baidu.com/manage/notice-manage',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'
     }
 }
